@@ -586,4 +586,4 @@ npm start
 If you switch to this URL: http://localhost:3000.
 You can see like this.
 
-@[Redux Tutorial For Beginners]({"stubs": ["src/app/App.js", "src/main.js", "src/app/AddCounter.js", "src/app/Counter.js", "src/app/RemoveCounter", "src/actions/ActionType.js", "src/actions/index.js", "src/reducer/counterReducer.js", "src/reducer/index.js", "src/index.tpl.html"], "command": "./run.sh"})
+@[Redux Tutorial For Beginners]({"stubs": ["src/app/App.js", "src/main.js", "src/app/AddCounter.js", "src/app/Counter.js", "src/app/RemoveCounter.js", "src/actions/ActionType.js", "src/actions/index.js", "src/reducer/counterReducer.js", "src/reducer/index.js", "src/index.tpl.html"], "command": "./run.sh"})
