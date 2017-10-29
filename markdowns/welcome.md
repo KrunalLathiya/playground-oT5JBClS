@@ -1,6 +1,6 @@
 # Redux Tutorial For Beginners
 
-<p>Redux</p> is quite an excellent State Managment Framework usually used with React.js library. In Single Page Application, data management at client side is far more complicated than just imagine. Now, you are familiar that, ReactJS is relying on the State of the application. However, In <p>React.js</p> state management is possible, but when the application gets bigger and bigger, unwanted errors and data changes are detected, and which module has changed which state and which view is updated, all these matters get complex, and we feel like, we trapped in our application. Facebook gives the solution. Its developer has created one State management pattern called <p>Flux</p>.
+<b>Redux</b> is quite an excellent State Managment Framework usually used with React.js library. In Single Page Application, data management at client side is far more complicated than just imagine. Now, you are familiar that, ReactJS is relying on the State of the application. However, In <b>React.js</b> state management is possible, but when the application gets bigger and bigger, unwanted errors and data changes are detected, and which module has changed which state and which view is updated, all these matters get complex, and we feel like, we trapped in our application. Facebook gives the solution. Its developer has created one State management pattern called <b>Flux</b>.
 
 # Flux
 
@@ -18,15 +18,15 @@ It is a unidirectional data flow. When the application gets bigger and bigger, t
 
 When multiple stores are there, the condition of our application looks like above figure, but the data flow is Unidirectional.
 
-<p>Flux has Multiple Stores.</p>
+<b>Flux has Multiple Stores.</b>
 
 # Redux
 
-<p>Redux</p> is the predictable state container for JavaScript applications. <p>Redux</p> is also following the Unidirectional flow, but it is entirely different from <p>Flux</p>. <p>Flux</p> has multiple stores.
+<b>Redux</b> is the predictable state container for JavaScript applications. <b>Redux</b> is also following the Unidirectional flow, but it is entirely different from <b>Flux</b>. <b>Flux</b> has multiple stores.
 
-<p>Redux has a Single Store.</p>
+<b>Redux has a Single Store.</b>
 
-<p>Redux</p> can not have multiple stores. The store is divided into various state objects. So all we need is to maintain the single store, or we can say the only source of truth.
+<b>Redux</b> can not have multiple stores. The store is divided into various state objects. So all we need is to maintain the single store, or we can say the only source of truth.
 
 # Three Principles Of Redux
 
@@ -38,7 +38,7 @@ It is the state of our whole application is stored in an object within a single 
 
 # Actions
 
-Actions are payloads of information that send data from your application to your store. You send them to the store using <p>store.dispatch()</p>
+Actions are payloads of information that send data from your application to your store. You send them to the store using <b>store.dispatch()</b>
 
 Actions are plain JavaScript objects. Actions must have a type property that indicates the type of action being performed. Types should typically be defined as string constants.
 
@@ -83,7 +83,7 @@ A store is an object that brings them together. A store has the following respon
 4. Registers listeners via subscribe(listener);
 5. It handles unregistering of listeners via the function returned by subscribe(listener)
 
-<p>t is important to note that you will only have a single store in a Redux application. If you want to split your data handling logic, you will use reducer composition instead of many stores.</p>
+<b>t is important to note that you will only have a single store in a Redux application. If you want to split your data handling logic, you will use reducer composition instead of many stores.</b>
 
 ```javascript
 import { createStore } from 'redux'
@@ -130,7 +130,7 @@ Switch to a terminal and type the following command.
 npm install
 ```
 
-Next step will be to create the <p>webpack.config.js</p> file in the root folder.
+Next step will be to create the <b>webpack.config.js</b> file in the root folder.
 
 ```javascript
 // webpack.config.js
@@ -163,7 +163,7 @@ Also, create one file called in root called .babelrc
 }
 ```
 
-Make one file in the root called <p>index.html</p>
+Make one file in the root called <b>index.html</b>
 
 ```
 <!DOCTYPE html>
@@ -202,11 +202,11 @@ render(
 )
 ```
 
-I have included the react particular dependency, but also I have included react-redux. It provides us a store through our entire application. So our <p>App</p> element is wrapped around Provider.
+I have included the react particular dependency, but also I have included react-redux. It provides us a store through our entire application. So our <b>App</b> element is wrapped around Provider.
 
 # Step 3: Create components directory inside src.
 
-Make one directory and inside make our most important component file called <p>App.js</p>
+Make one directory and inside make our most important component file called <b>App.js</b>
 
 ```javascript
 // App.js
@@ -223,9 +223,9 @@ const App = () => {
 export default App;
 ```
 
-<p>App.js</p> the component where our other components are included. We are creating the simple counter application. However, we need to define first how many components are required to complete the application.
+<b>App.js</b> the component where our other components are included. We are creating the simple counter application. However, we need to define first how many components are required to complete the application.
 
-There are mainly two types of components when you are dealing with <p>React and Redux.</p>
+There are mainly two types of components when you are dealing with <b>React and Redux.</b>
 
 1. Smart Component
 2. Dumb Component
@@ -295,7 +295,7 @@ Now, it dispatches the action, and in our scenario, it named as <b>addCounter()<
 
 # Create an Action
 
-Make one folder inside <p>src</p> called actions and in that create one file called <b>index.js</b>
+Make one folder inside <b>src</b> called actions and in that create one file called <b>index.js</b>
 
 ```javascript
 // index.js
